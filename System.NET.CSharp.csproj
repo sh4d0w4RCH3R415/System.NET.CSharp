@@ -47,6 +47,11 @@
     <Compile Include="Configuration\XmlBased.cs" />
     <Compile Include="Configuration\XmlBuffer.cs" />
     <Compile Include="General\Extensions.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Transitions\IManagedType.cs" />
     <Compile Include="Transitions\ITransitionType.cs" />
     <Compile Include="Transitions\ManagedType_Color.cs" />
@@ -101,6 +106,9 @@
     <Compile Include="WinForms\MessageNotification.Designer.cs">
       <DependentUpon>MessageNotification.cs</DependentUpon>
     </Compile>
+    <Compile Include="WinForms\PictureBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="WinForms\ProgressBar.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -116,12 +124,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="WinForms\MessageNotification.resx">
       <DependentUpon>MessageNotification.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Content Include="notification-64.ico" />
+    <None Include="Resources\aero-glass-close.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

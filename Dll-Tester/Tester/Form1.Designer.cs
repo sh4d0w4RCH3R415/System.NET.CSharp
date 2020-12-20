@@ -86,10 +86,11 @@ namespace Tester
 			// label1
 			// 
 			this.label1.AutoSize = true;
+			this.label1.Font = new System.Drawing.Font("Roboto", 11F);
 			this.label1.ForeColor = System.Drawing.SystemColors.Window;
-			this.label1.Location = new System.Drawing.Point(34, 7);
+			this.label1.Location = new System.Drawing.Point(31, 9);
 			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(122, 23);
+			this.label1.Size = new System.Drawing.Size(96, 18);
 			this.label1.TabIndex = 1;
 			this.label1.Text = "Testing Form";
 			this.label1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.DragForm);
@@ -97,9 +98,9 @@ namespace Tester
 			// pictureBox1
 			// 
 			this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-			this.pictureBox1.Location = new System.Drawing.Point(5, 5);
+			this.pictureBox1.Location = new System.Drawing.Point(7, 6);
 			this.pictureBox1.Name = "pictureBox1";
-			this.pictureBox1.Size = new System.Drawing.Size(25, 25);
+			this.pictureBox1.Size = new System.Drawing.Size(21, 21);
 			this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
 			this.pictureBox1.TabIndex = 0;
 			this.pictureBox1.TabStop = false;

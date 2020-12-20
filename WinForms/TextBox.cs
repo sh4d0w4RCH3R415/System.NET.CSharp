@@ -1,4 +1,5 @@
-﻿using System.Drawing;
+﻿using System.ComponentModel;
+using System.Drawing;
 using System.NET.CSharp.Graphics;
 using System.NET.CSharp.Transitions;
 using System.Windows.Forms;
@@ -54,13 +55,15 @@ namespace System.NET.CSharp.WinForms
 		public Color UnderlineNormal
 		{
 			get { return underlineNormal; }
-			set { underlineNormal = value; Invalidate(); }
+			set { underlineNormal = value; underlineCurrent = value; Invalidate(); }
 		}
 		public Color UnderlineFocused
 		{
 			get { return underlineFocused; }
 			set { underlineFocused = value; Invalidate(); }
 		}
+
+		[Browsable(false), EditorBrowsable(EditorBrowsableState.Never)]
 		public Color UnderlineCurrent
 		{
 			get { return underlineCurrent; }
@@ -82,6 +85,7 @@ namespace System.NET.CSharp.WinForms
 		{
 			base.OnGotFocus(e);
 			Transition.run(this, "UnderlineCurrent", underlineFocused, new TransitionType_Linear(500));
+			tb.Focus();
 		}
 		protected override void OnLostFocus(EventArgs e)
 		{

@@ -652,5 +652,11 @@ namespace System.NET.CSharp.General
 			return bytes.ToString();
 		}
 		#endregion
+		#region General Stuff
+		public static bool Exists(this object obj)
+		{
+			return obj != null;
+		}
+		#endregion
 	}
 }
