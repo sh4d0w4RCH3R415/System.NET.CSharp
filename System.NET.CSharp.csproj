@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{56742E67-753C-4F01-9A72-FCBB4D2F5C07}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>System.NET.CSharp</RootNamespace>
+    <AssemblyName>System.NET.CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>notification-64.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Configuration\Ini.cs" />
+    <Compile Include="Configuration\IProfile.cs" />
+    <Compile Include="Configuration\IReadOnlyProfile.cs" />
+    <Compile Include="Configuration\Profile.cs" />
+    <Compile Include="Configuration\ProfileChangedArgs.cs" />
+    <Compile Include="Configuration\ProfileChangedHandler.cs" />
+    <Compile Include="Configuration\ProfileChangeType.cs" />
+    <Compile Include="Configuration\ProfileChangingArgs.cs" />
+    <Compile Include="Configuration\ProfileChangingHandler.cs" />
+    <Compile Include="Configuration\Xml.cs" />
+    <Compile Include="Configuration\XmlBased.cs" />
+    <Compile Include="Configuration\XmlBuffer.cs" />
+    <Compile Include="General\Extensions.cs" />
+    <Compile Include="Transitions\IManagedType.cs" />
+    <Compile Include="Transitions\ITransitionType.cs" />
+    <Compile Include="Transitions\ManagedType_Color.cs" />
+    <Compile Include="Transitions\ManagedType_Double.cs" />
+    <Compile Include="Transitions\ManagedType_Float.cs" />
+    <Compile Include="Transitions\ManagedType_Int.cs" />
+    <Compile Include="Transitions\ManagedType_String.cs" />
+    <Compile Include="Transitions\Transition.cs" />
+    <Compile Include="Transitions\TransitionChain.cs" />
+    <Compile Include="Transitions\TransitionElement.cs" />
+    <Compile Include="Transitions\TransitionManager.cs" />
+    <Compile Include="Transitions\TransitionType_Acceleration.cs" />
+    <Compile Include="Transitions\TransitionType_Bounce.cs" />
+    <Compile Include="Transitions\TransitionType_CriticalDamping.cs" />
+    <Compile Include="Transitions\TransitionType_Deceleration.cs" />
+    <Compile Include="Transitions\TransitionType_EaseInEaseOut.cs" />
+    <Compile Include="Transitions\TransitionType_Flash.cs" />
+    <Compile Include="Transitions\TransitionType_Linear.cs" />
+    <Compile Include="Transitions\TransitionType_ThrowAndCatch.cs" />
+    <Compile Include="Transitions\TransitionType_UserDefined.cs" />
+    <Compile Include="Transitions\Utility.cs" />
+    <Compile Include="General\BasicMath.cs" />
+    <Compile Include="General\ColorMixer.cs" />
+    <Compile Include="General\Randomizer.cs" />
+    <Compile Include="Graphics\Extensions.cs" />
+    <Compile Include="Graphics\Rectangle.cs" />
+    <Compile Include="Internet\Internet.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Windows\Power.cs" />
+    <Compile Include="Windows\user32.cs" />
+    <Compile Include="WinForms\Button.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinForms\FlatButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinForms\List.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinForms\HowTo.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinForms\Label.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinForms\LinkLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinForms\MessageNotification.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForms\MessageNotification.Designer.cs">
+      <DependentUpon>MessageNotification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForms\ProgressBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinForms\TextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="WinForms\MessageNotification.resx">
+      <DependentUpon>MessageNotification.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="notification-64.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
