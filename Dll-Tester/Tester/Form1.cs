@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Drawing;
 using System.NET.CSharp.Transitions;
+using System.NET.CSharp.Windows;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
 
@@ -11,6 +12,12 @@ namespace Tester
 		public Form1()
 		{
 			InitializeComponent();
+
+			int left = 0;
+			int right = 0;
+			int bottom = 0;
+			int top = 1;
+			gdi32.DropShadow.ApplyShadows(this, left, right, bottom, top);
 		}
 
 		[DllImport("user32")]
