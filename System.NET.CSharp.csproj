@@ -86,6 +86,7 @@
     <Compile Include="WinForms\Button.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="WinForms\Extensions.cs" />
     <Compile Include="WinForms\FlatButton.cs">
       <SubType>Component</SubType>
     </Compile>
