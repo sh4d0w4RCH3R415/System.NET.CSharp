@@ -13,9 +13,9 @@ namespace Tester
 		{
 			InitializeComponent();
 
-			int left = 0;
-			int right = 0;
-			int bottom = 0;
+			int left = 1;
+			int right = 1;
+			int bottom = 1;
 			int top = 1;
 			gdi32.DropShadow.ApplyShadows(this, left, right, bottom, top);
 		}
