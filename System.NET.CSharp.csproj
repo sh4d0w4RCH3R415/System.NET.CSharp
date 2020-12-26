@@ -91,6 +91,9 @@
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="WinForms\Extensions.cs" />
+    <Compile Include="WinForms\RoundFlatButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="WinForms\FlatButton.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -116,6 +119,9 @@
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="WinForms\ProgressBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinForms\RoundButton.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="WinForms\TextBox.cs">
