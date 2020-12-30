@@ -2,7 +2,7 @@
 
 ## System.NET.CSharp
 ### Information
-Before you go anywhere, please note that this library is ***not*** and **addition** to the **System.Net** libraries.
+Before you go anywhere, please note that this library is ***not*** an **addition** to the **System.Net** libraries.
 There is a big difference between the letter casing of Net and NET.
 
 ### Download
