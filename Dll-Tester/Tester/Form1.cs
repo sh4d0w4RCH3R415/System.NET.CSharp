@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Drawing;
+using System.NET.CSharp.General;
 using System.NET.CSharp.Transitions;
 using System.NET.CSharp.Windows;
 using System.Runtime.InteropServices;
@@ -18,6 +19,15 @@ namespace Tester
 			int bottom = 1;
 			int top = 1;
 			gdi32.DropShadow.ApplyShadows(this, left, right, bottom, top);
+
+			Stopwatch s = new Stopwatch(1, 1, 1);
+			s.Start();
+			Timer t = new Timer { Interval = 1 };
+			t.Tick += (sender, e) =>
+			{
+				label1.Text = string.Format("Testing Form - {0}:{1}:{2}", s.Hours, s.Minutes, s.Seconds);
+			};
+			t.Start();
 		}
 
 		[DllImport("user32")]

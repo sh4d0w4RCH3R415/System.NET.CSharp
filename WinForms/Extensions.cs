@@ -30,17 +30,5 @@ namespace System.NET.CSharp.WinForms
 			return MessageBox.Show($"Error Detected:\n\n{exception.Message}", Title, buttons, icon);
 		}
 		#endregion
-		#region Video Player
-		public static int PlayYouTubeVideo(this WebBrowser browser, string videoID)
-		{
-			browser.DocumentText += $"<html>\n" +
-				$"\t<body>\n" +
-				$"\t\t<iframe id=video src=\"https://www.youtube.com/embed/{videoID}\" width={browser.Width - 21} height={browser.Height - 21} frameborder=0>\n" +
-				$"\t\t</iframe>\n" +
-				$"\t</body>\n" +
-				$"</html>";
-			return 0;
-		}
-		#endregion
 	}
 }
