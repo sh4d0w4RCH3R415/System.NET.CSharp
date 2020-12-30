@@ -1,6 +1,6 @@
 ![](system.NET.csharp_logo.png)
 
-## System.NET.CSharp
+# System.NET.CSharp
 ### INFORMATION
 Before you go anywhere, please note that this library is ***not*** an **addition** to the **System.Net** libraries.
 There is a big difference between the letter casing of Net and NET.
