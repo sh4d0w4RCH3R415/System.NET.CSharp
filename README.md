@@ -1,3 +1,5 @@
+![](system.NET.csharp_logo.png)
+
 ## System.NET.CSharp
 ### Information
 Before you go anywhere, please note that this library is ***not*** and **addition** to the **System.Net** libraries.
