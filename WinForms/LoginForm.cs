@@ -20,6 +20,8 @@ namespace System.NET.CSharp.WinForms
 			int bottom = 1;
 			int top = 1;
 			gdi32.DropShadow.ApplyShadows(this, left, right, bottom, top);
+
+			user32.AllowFormDrag(this, this);
 		}
 
 		private ITransitionType linear = new TransitionType_Linear(100);
@@ -52,6 +54,7 @@ namespace System.NET.CSharp.WinForms
 					if (password.Text == LoginHelper.Default.Password)
 					{
 						mainForm.Visible = true;
+						Visible = false;
 						Close();
 					}
 					else if (password.Text != LoginHelper.Default.Password)
@@ -79,11 +82,15 @@ namespace System.NET.CSharp.WinForms
 		{
 			base.WndProc(ref m);
 
-			if (exitClicked)
+			try
 			{
-				Close();
-				mainForm.Close();
+				if (exitClicked)
+				{
+					Close();
+					mainForm.Close();
+				}
 			}
+			catch { }
 		}
 	}
 }
