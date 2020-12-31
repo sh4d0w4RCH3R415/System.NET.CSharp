@@ -2,6 +2,7 @@
 using System.Drawing;
 using System.NET.CSharp.Transitions;
 using System.NET.CSharp.Windows;
+using System.NET.CSharp.WinForms;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
 
@@ -18,6 +19,8 @@ namespace Tester
 			int bottom = 1;
 			int top = 1;
 			gdi32.DropShadow.ApplyShadows(this, left, right, bottom, top);
+
+			new LoginForm(this).ShowDialog();
 		}
 
 		[DllImport("user32")]

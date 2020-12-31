@@ -30,5 +30,11 @@ namespace System.NET.CSharp.WinForms
 			return MessageBox.Show($"Error Detected:\n\n{exception.Message}", Title, buttons, icon);
 		}
 		#endregion
+		#region Property Handling
+		public static bool HasProperty(this Type obj, string propertyName)
+		{
+			return obj.GetProperty(propertyName) != null;
+		}
+		#endregion
 	}
 }
