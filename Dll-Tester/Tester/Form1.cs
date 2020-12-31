@@ -20,12 +20,16 @@ namespace Tester
 			int top = 1;
 			gdi32.DropShadow.ApplyShadows(this, left, right, bottom, top);
 
-			Stopwatch s = new Stopwatch(1, 1, 1);
-			s.Start();
+			System.Diagnostics.Stopwatch s = new System.Diagnostics.Stopwatch();
 			Timer t = new Timer { Interval = 1 };
+			s.Start();
 			t.Tick += (sender, e) =>
 			{
-				label1.Text = string.Format("Testing Form - {0}:{1}:{2}", s.Hours, s.Minutes, s.Seconds);
+				label1.Text = string.Format("Testing Form - {0:D2}:{1:D2}:{2:D2}.{3:D3}",
+					s.Elapsed.Hours,
+					s.Elapsed.Minutes,
+					s.Elapsed.Seconds,
+					s.Elapsed.Milliseconds);
 			};
 			t.Start();
 		}
