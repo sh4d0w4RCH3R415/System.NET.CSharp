@@ -632,6 +632,17 @@ namespace System.NET.CSharp.General
 			T[] array = list.ToArray();
 			Array.Sort(array, (x, y) => string.Compare(x.ToString(), y.ToString()));
 		}
+
+		public static T FetchRandomElement<T>(this T[] array)
+		{
+			Random rnd = new Random();
+			return array[rnd.Next(array.Length - 1)];
+		}
+		public static T FetchRandomElement<T>(this List<T> list)
+		{
+			Random rnd = new Random();
+			return list[rnd.Next(list.Count - 1)];
+		}
 		#endregion
 		#region Byte Conversion
 		public static string ToReadableBytes(long bytes)

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Drawing;
+using System.NET.CSharp.General;
 using System.NET.CSharp.Transitions;
 using System.NET.CSharp.Windows;
 using System.NET.CSharp.WinForms;

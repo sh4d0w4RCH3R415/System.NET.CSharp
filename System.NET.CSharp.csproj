@@ -83,10 +83,13 @@
     <Compile Include="Graphics\Rectangle.cs" />
     <Compile Include="Internet\Internet.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Windows\Action.cs" />
     <Compile Include="Windows\Audio.cs" />
     <Compile Include="Windows\AudioFile.cs" />
+    <Compile Include="Windows\CustomAction.cs" />
     <Compile Include="Windows\gdi32.cs" />
     <Compile Include="Windows\Power.cs" />
+    <Compile Include="Windows\ThreadManipulator.cs" />
     <Compile Include="Windows\user32.cs" />
     <Compile Include="WinForms\Button.cs">
       <SubType>Component</SubType>
