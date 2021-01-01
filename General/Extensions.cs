@@ -585,6 +585,55 @@ namespace System.NET.CSharp.General
 		{
 			return str == requiredValue;
 		}
+
+		public static byte ToByte(this string str)
+		{
+			return Convert.ToByte(str);
+		}
+		public static decimal ToDecimal(this string str)
+		{
+			return Convert.ToDecimal(str);
+		}
+		public static double ToDouble(this string str)
+		{
+			return Convert.ToDouble(str);
+		}
+		public static float ToFloat(this string str)
+		{
+			return Convert.ToSingle(str);
+		}
+		public static int ToInt(this string str)
+		{
+			return Convert.ToInt32(str);
+		}
+		public static long ToLong(this string str)
+		{
+			return Convert.ToInt64(str);
+		}
+		public static sbyte ToSByte(this string str)
+		{
+			return Convert.ToSByte(str);
+		}
+		public static short ToShort(this string str)
+		{
+			return Convert.ToInt16(str);
+		}
+		public static uint ToUInt(this string str)
+		{
+			return Convert.ToUInt32(str);
+		}
+		public static ulong ToULong(this string str)
+		{
+			return Convert.ToUInt64(str);
+		}
+		public static ushort ToUShort(this string str)
+		{
+			return Convert.ToUInt16(str);
+		}
+		public static IntPtr ToIntPtr(this string str)
+		{
+			return (IntPtr)str.ToInt();
+		}
 		#endregion
 		#region Windows Messages
 		public static int Send(this Message winMsg)

@@ -87,6 +87,7 @@
     <Compile Include="Windows\Audio.cs" />
     <Compile Include="Windows\AudioFile.cs" />
     <Compile Include="Windows\CustomAction.cs" />
+    <Compile Include="Windows\DateTime.cs" />
     <Compile Include="Windows\gdi32.cs" />
     <Compile Include="Windows\Mouse.cs" />
     <Compile Include="Windows\Power.cs" />
