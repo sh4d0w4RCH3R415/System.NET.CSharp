@@ -17,9 +17,6 @@ namespace Tester
 			int bottom = 1;
 			int top = 1;
 			gdi32.DropShadow.ApplyShadows(this, left, right, bottom, top);
-
-			Mouse.ResetPos();
-			Mouse.InvokeMouseEvent(MouseButtons.Left, )
 		}
 
 		[DllImport("user32")]
