@@ -44,6 +44,7 @@ namespace System.NET.CSharp.WinForms
 		private void exit_Click(object sender, EventArgs e)
 		{
 			exitClicked = true;
+			Close();
 		}
 		private void login_Click(object sender, EventArgs e)
 		{
@@ -76,21 +77,6 @@ namespace System.NET.CSharp.WinForms
 				LoginHelper.Default.Password = password.Text;
 				LoginHelper.Default.Save();
 			}
-		}
-
-		protected override void WndProc(ref Message m)
-		{
-			base.WndProc(ref m);
-
-			try
-			{
-				if (exitClicked)
-				{
-					Close();
-					mainForm.Close();
-				}
-			}
-			catch { }
 		}
 	}
 }
