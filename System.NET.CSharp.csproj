@@ -50,6 +50,8 @@
     <Compile Include="Configuration\XmlBuffer.cs" />
     <Compile Include="General\Extensions.cs" />
     <Compile Include="General\Stopwatch.cs" />
+    <Compile Include="Internet\Ping.cs" />
+    <Compile Include="Internet\Stability.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

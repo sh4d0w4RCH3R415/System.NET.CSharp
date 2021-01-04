@@ -1,6 +1,6 @@
-﻿using System.Net.NetworkInformation;
-using System.Runtime.InteropServices;
-using System.Windows.Forms;
+﻿using System.Runtime.InteropServices;
+
+using ping = System.Net.NetworkInformation.Ping;
 
 namespace System.NET.CSharp.Internet
 {
@@ -18,7 +18,7 @@ namespace System.NET.CSharp.Internet
 		{
 			if (IsInternetAvailable())
 			{
-				return new Ping().Send("www.google.com").RoundtripTime.ToString() + "ms";
+				return new ping().Send("www.google.com").RoundtripTime.ToString() + "ms";
 			}
 			else
 			{
