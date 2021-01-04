@@ -1,8 +1,8 @@
 ![](system.NET.csharp_logo.png)
 
 [![](https://img.shields.io/badge/build-stable-success)](#)
-[![](https://img.shields.io/badge/version-1.1.1-orange)](https://github.com/sh4d0w4RCH3R415/System.NET.CSharp/releases/1.1.1/)
-[![](https://img.shields.io/badge/release-1.1.1--download-orange)](https://github.com/sh4d0w4RCH3R415/System.NET.CSharp/releases/download/1.1.1/System.NET.CSharp.dll)
+[![](https://img.shields.io/badge/version-1.1.1-orange)](#)
+[![](https://img.shields.io/badge/release-1.1.1-orange)](https://github.com/sh4d0w4RCH3R415/System.NET.CSharp/releases/1.1.1/)
 
 # System.NET.CSharp
 ### INFORMATION
