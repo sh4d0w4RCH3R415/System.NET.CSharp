@@ -21,4 +21,4 @@ Most of the time I am just finding solutions to problems with code, or just tryi
 latest from this repository and its releases.
 
 ### GitHub Badge Generator
-The badges were made with an app I ***just*** released called [***GitHub Badge Generator***](https://github.com/sh4d0w4RCH3R415/GitHub-Badge-Generator/releases/free-download/).
+The badges were made with an app I ***just*** released called [***GitHub Badge Generator***](https://github.com/sh4d0w4RCH3R415/GitHub-Badge-Generator/releases/free-download/)
