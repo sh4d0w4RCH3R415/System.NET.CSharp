@@ -1,8 +1,8 @@
 ![](system.NET.csharp_logo.png)
 
 [![](https://img.shields.io/badge/build-stable-success)](#)
-[![](https://img.shields.io/badge/version-1.1.1-orange)](#)
-[![](https://img.shields.io/badge/release-1.1.1-orange)](https://github.com/sh4d0w4RCH3R415/System.NET.CSharp/releases/1.1.1/)
+[![](https://img.shields.io/badge/version-1.1.2-orange)](#)
+[![](https://img.shields.io/badge/release-1.1.2-orange)](https://github.com/sh4d0w4RCH3R415/System.NET.CSharp/releases/1.1.2/)
 
 # System.NET.CSharp
 ### INFORMATION
@@ -11,7 +11,7 @@ There is a big difference between the letter casing of Net and NET.
 
 ### DOWNLOAD
 If you want to download any of the releases, go [here](https://github.com/sh4d0w4RCH3R415/System.NET.CSharp/releases/).<br/>
-If you want to download the *latest* release, go [here](https://github.com/sh4d0w4RCH3R415/System.NET.CSharp/releases/1.1.1).
+If you want to download the *latest* release, go [here](https://github.com/sh4d0w4RCH3R415/System.NET.CSharp/releases/1.1.2).
 
 The ***latest release*** link will have the new release link anytime I upload a new release, so keep checking this repository for new releases.
 
