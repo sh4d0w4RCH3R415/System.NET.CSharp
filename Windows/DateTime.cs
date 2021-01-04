@@ -12,9 +12,41 @@ namespace System.NET.CSharp.Windows
 		{
 			return System.DateTime.Now.Day;
 		}
-		public static int GetMonth()
+		public static int GetMonthAsNumber()
 		{
 			return System.DateTime.Now.Month;
+		}
+		public static string GetMonthAsString()
+		{
+			switch (GetMonthAsNumber())
+			{
+				case 1:
+					return "January";
+				case 2:
+					return "February";
+				case 3:
+					return "March";
+				case 4:
+					return "April";
+				case 5:
+					return "May";
+				case 6:
+					return "June";
+				case 7:
+					return "July";
+				case 8:
+					return "August";
+				case 9:
+					return "September";
+				case 10:
+					return "October";
+				case 11:
+					return "November";
+				case 12:
+					return "December";
+			}
+
+			return string.Empty;
 		}
 		public static int GetYear()
 		{
@@ -23,7 +55,7 @@ namespace System.NET.CSharp.Windows
 
 		public static string GetNormalDate()
 		{
-			switch (GetMonth())
+			switch (GetMonthAsNumber())
 			{
 				case 1:
 					return string.Format("{0} {1}, {2}", "January", GetDayAsNumber(), GetYear());
@@ -54,7 +86,7 @@ namespace System.NET.CSharp.Windows
 		}
 		public static string GetEuropeanDate()
 		{
-			switch (GetMonth())
+			switch (GetMonthAsNumber())
 			{
 				case 1:
 					return string.Format("{1} {0} {2}", "January", GetDayAsNumber(), GetYear());
