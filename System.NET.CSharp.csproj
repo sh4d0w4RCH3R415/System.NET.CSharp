@@ -48,6 +48,7 @@
     <Compile Include="Configuration\Xml.cs" />
     <Compile Include="Configuration\XmlBased.cs" />
     <Compile Include="Configuration\XmlBuffer.cs" />
+    <Compile Include="FileSystem\File.cs" />
     <Compile Include="General\Extensions.cs" />
     <Compile Include="General\Stopwatch.cs" />
     <Compile Include="Internet\Ping.cs" />
