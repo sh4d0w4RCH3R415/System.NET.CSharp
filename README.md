@@ -1,8 +1,8 @@
 ![](system.NET.csharp_logo.png)
 
 [![](https://img.shields.io/badge/build-stable-success)](#)
-[![](https://img.shields.io/badge/version-1.1.2-orange)](#)
-[![](https://img.shields.io/badge/release-1.1.2-orange)](https://github.com/sh4d0w4RCH3R415/System.NET.CSharp/releases/1.1.2/)
+[![](https://img.shields.io/badge/version-1.1.3-orange)](#)
+[![](https://img.shields.io/badge/release-1.1.3-orange)](https://github.com/sh4d0w4RCH3R415/System.NET.CSharp/releases/1.1.3/)
 
 # System.NET.CSharp
 ### INFORMATION
@@ -11,7 +11,7 @@ There is a big difference between the letter casing of Net and NET.
 
 ### DOWNLOAD
 If you want to download any of the releases, go [here](https://github.com/sh4d0w4RCH3R415/System.NET.CSharp/releases/).<br/>
-If you want to download the *latest* release, go [here](https://github.com/sh4d0w4RCH3R415/System.NET.CSharp/releases/1.1.2).
+If you want to download the *latest* release, go [here](https://github.com/sh4d0w4RCH3R415/System.NET.CSharp/releases/1.1.3).
 
 The ***latest release*** link will have the new release link anytime I upload a new release, so keep checking this repository for new releases.
 
@@ -21,4 +21,4 @@ Most of the time I am just finding solutions to problems with code, or just tryi
 latest from this repository and its releases.
 
 ### GitHub Badge Generator
-The badges were made with an app I ***just*** released called [***GitHub Badge Generator***](https://github.com/sh4d0w4RCH3R415/GitHub-Badge-Generator/releases/free-download/).
+The badges were made with an app I ***just*** released called [***GitHub Badge Generator***](https://github.com/sh4d0w4RCH3R415/GitHub-Badge-Generator/releases/1.0.2/).
