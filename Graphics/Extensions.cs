@@ -69,5 +69,22 @@ namespace System.NET.CSharp.Graphics
 			string hex = hexCode.ToString().Substring(2);
 			return hex.ToRGB();
 		}
+
+		public static Image ToImage(this Bitmap bmp)
+		{
+			return bmp;
+		}
+		public static Bitmap ToBitmap(this Image img)
+		{
+			return img as Bitmap;
+		}
+		public static Icon ToIcon(this Bitmap bmp)
+		{
+			return Icon.FromHandle(bmp.GetHicon());
+		}
+		public static Icon ToIcon(this Image img)
+		{
+			return Icon.FromHandle(img.ToBitmap().GetHicon());
+		}
 	}
 }

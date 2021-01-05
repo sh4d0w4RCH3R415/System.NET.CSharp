@@ -51,6 +51,8 @@
     <Compile Include="FileSystem\File.cs" />
     <Compile Include="General\Extensions.cs" />
     <Compile Include="General\Stopwatch.cs" />
+    <Compile Include="Graphics\IcoToPng.cs" />
+    <Compile Include="Graphics\PngToIco.cs" />
     <Compile Include="Internet\Ping.cs" />
     <Compile Include="Internet\Stability.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
