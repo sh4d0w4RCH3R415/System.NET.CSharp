@@ -21,4 +21,5 @@ Most of the time I am just finding solutions to problems with code, or just tryi
 latest from this repository and its releases.
 
 ### GitHub Badge Generator
-The badges were made with an app I ***just*** released called ***GitHub Badge Generator***: [![](https://img.shields.io/badge/download-GitHub_Badge_Generator-yellowgreen)](https://github.com/sh4d0w4RCH3R415/GitHub-Badge-Generator/releases/1.0.2/).
+The badges were made with an app I ***just*** released called ***GitHub Badge Generator*** (click the badge to download).<br/>
+[![](https://img.shields.io/badge/download-GitHub_Badge_Generator-yellowgreen)](https://github.com/sh4d0w4RCH3R415/GitHub-Badge-Generator/releases/1.0.2/).
