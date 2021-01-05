@@ -10,7 +10,7 @@ Before you go anywhere, please note that this library is ***not*** an **addition
 There is a big difference between the letter casing of Net and NET.
 
 ### DOWNLOAD
-If you want to download any of the releases, click the badge -> [![](https://img.shields.io/badge/releases-System.NET.CSharp-yellow)](https://img.shields.io)](https://github.com/sh4d0w4RCH3R415/System.NET.CSharp/releases/).<br/>
+If you want to download any of the releases, click the badge -> [![](https://img.shields.io/badge/releases-System.NET.CSharp-yellow)](https://github.com/sh4d0w4RCH3R415/System.NET.CSharp/releases/).<br/>
 If you want to download the *latest* release, click the badge -> [![](https://img.shields.io/badge/download-1.1.5-yellow)](https://github.com/sh4d0w4RCH3R415/System.NET.CSharp/releases/1.1.5).
 
 The ***latest release*** link will have the new release link anytime I upload a new release, so keep checking this repository for new releases.
