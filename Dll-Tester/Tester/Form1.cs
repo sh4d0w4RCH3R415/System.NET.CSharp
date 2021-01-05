@@ -20,6 +20,12 @@ namespace Tester
 			gdi32.DropShadow.ApplyShadows(this, left, right, bottom, top);
 		}
 
+		public void RefocusWindow()
+		{
+			WindowState = FormWindowState.Normal;
+			Focus();
+		}
+
 		[DllImport("user32")]
 		private static extern bool ReleaseCapture();
 

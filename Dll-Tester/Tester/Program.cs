@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.VisualBasic.ApplicationServices;
+using System;
 using System.Windows.Forms;
 
 namespace Tester
@@ -9,11 +10,24 @@ namespace Tester
 		/// The main entry point for the application.
 		/// </summary>
 		[STAThread]
-		static void Main()
+		static void Main(string[] args)
 		{
-			Application.EnableVisualStyles();
-			Application.SetCompatibleTextRenderingDefault(false);
-			Application.Run(new Form1());
+			TesterForm testerApp = new TesterForm();
+			testerApp.Run(args);
+		}
+
+		private class TesterForm : WindowsFormsApplicationBase
+		{
+			public TesterForm()
+			{
+				MainForm = new Form1();
+				IsSingleInstance = true;
+			}
+
+			protected override void OnStartupNextInstance(StartupNextInstanceEventArgs eventArgs)
+			{
+				((Form1)MainForm).RefocusWindow();
+			}
 		}
 	}
 }
