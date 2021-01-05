@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Drawing;
-using System.NET.CSharp.General;
 using System.NET.CSharp.Transitions;
 using System.NET.CSharp.Windows;
 using System.Runtime.InteropServices;
@@ -12,6 +11,8 @@ namespace Tester
 	{
 		public Form1()
 		{
+			InitializeComponent();
+
 			int left = 1;
 			int right = 1;
 			int bottom = 1;
