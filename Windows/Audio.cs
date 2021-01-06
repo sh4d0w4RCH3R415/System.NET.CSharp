@@ -20,10 +20,6 @@ namespace System.NET.CSharp.Windows
 		{
 			audioFile = new AudioFile(resultFile);
 		}
-		~Audio()
-		{
-			Delete();
-		}
 		
 		public void RecordMicrophone()
 		{

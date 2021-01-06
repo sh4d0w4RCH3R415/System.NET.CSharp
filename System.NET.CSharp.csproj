@@ -96,6 +96,8 @@
     <Compile Include="Windows\gdi32.cs" />
     <Compile Include="Windows\Mouse.cs" />
     <Compile Include="Windows\Power.cs" />
+    <Compile Include="Windows\SystemProcess.cs" />
+    <Compile Include="Windows\SystemProcesses.cs" />
     <Compile Include="Windows\ThreadManipulator.cs" />
     <Compile Include="Windows\user32.cs" />
     <Compile Include="WinForms\Button.cs">
