@@ -716,6 +716,58 @@ namespace System.NET.CSharp.General
 		{
 			return obj != null;
 		}
+		public static bool Is(this string str, string strRequired)
+		{
+			return str == strRequired;
+		}
+		public static bool Is(this byte num, byte numRequired)
+		{
+			return num == numRequired;
+		}
+		public static bool Is(this decimal num, decimal numRequired)
+		{
+			return num == numRequired;
+		}
+		public static bool Is(this double num, double numRequired)
+		{
+			return num == numRequired;
+		}
+		public static bool Is(this float num, float numRequired)
+		{
+			return num == numRequired;
+		}
+		public static bool Is(this int num, int numRequired)
+		{
+			return num == numRequired;
+		}
+		public static bool Is(this long num, long numRequired)
+		{
+			return num == numRequired;
+		}
+		public static bool Is(this sbyte num, sbyte numRequired)
+		{
+			return num == numRequired;
+		}
+		public static bool Is(this short num, short numRequired)
+		{
+			return num == numRequired;
+		}
+		public static bool Is(this uint num, uint numRequired)
+		{
+			return num == numRequired;
+		}
+		public static bool Is(this ulong num, ulong numRequired)
+		{
+			return num == numRequired;
+		}
+		public static bool Is(this ushort num, ushort numRequired)
+		{
+			return num == numRequired;
+		}
+		public static bool Is(this IntPtr handle_hwnd, IntPtr handle_hwnd_Required)
+		{
+			return handle_hwnd == handle_hwnd_Required;
+		}
 		#endregion
 	}
 }
