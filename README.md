@@ -1,8 +1,8 @@
 ![](system.NET.csharp_logo.png)
 
 [![](https://img.shields.io/badge/build-stable-success)](#)
-[![](https://img.shields.io/badge/version-1.1.5-orange)](#)
-[![](https://img.shields.io/badge/release-1.1.5-orange)](https://github.com/sh4d0w4RCH3R415/System.NET.CSharp/releases/1.1.5/)
+[![](https://img.shields.io/badge/version-1.1.6-orange)](#)
+[![](https://img.shields.io/badge/release-1.1.6-orange)](https://github.com/sh4d0w4RCH3R415/System.NET.CSharp/releases/1.1.6/)
 
 # System.NET.CSharp
 ### INFORMATION
@@ -11,7 +11,7 @@ There is a big difference between the letter casing of Net and NET.
 
 ### DOWNLOAD
 If you want to download any of the releases, click the badge -> [![](https://img.shields.io/badge/releases-System.NET.CSharp-yellow)](https://github.com/sh4d0w4RCH3R415/System.NET.CSharp/releases/).<br/>
-If you want to download the *latest* release, click the badge -> [![](https://img.shields.io/badge/download-1.1.5-yellow)](https://github.com/sh4d0w4RCH3R415/System.NET.CSharp/releases/1.1.5).
+If you want to download the *latest* release, click the badge -> [![](https://img.shields.io/badge/download-1.1.6-yellow)](https://github.com/sh4d0w4RCH3R415/System.NET.CSharp/releases/1.1.6).
 
 The ***latest release*** link will have the new release link anytime I upload a new release, so keep checking this repository for new releases.
 
@@ -24,3 +24,6 @@ latest from this repository and its releases.
 The badges were made with an app I ***just*** released called ***GitHub Badge Generator*** (click the badge to download).
 
 [![](https://img.shields.io/badge/download-GitHub_Badge_Generator-yellowgreen)](https://github.com/sh4d0w4RCH3R415/GitHub-Badge-Generator/releases/1.0.2/)
+
+### LEARN BASICS OF C#
+[![](video.png)](https://www.youtube.com/watch?v=GhQdlIFylQ8)
