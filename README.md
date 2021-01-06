@@ -24,3 +24,6 @@ latest from this repository and its releases.
 The badges were made with an app I ***just*** released called ***GitHub Badge Generator*** (click the badge to download).
 
 [![](https://img.shields.io/badge/download-GitHub_Badge_Generator-yellowgreen)](https://github.com/sh4d0w4RCH3R415/GitHub-Badge-Generator/releases/1.0.2/)
+
+### LEARN BASICS OF C#
+[![](video.png)](https://www.youtube.com/watch?v=GhQdlIFylQ8)
