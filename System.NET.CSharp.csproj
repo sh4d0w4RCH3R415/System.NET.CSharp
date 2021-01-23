@@ -175,8 +175,8 @@
   <ItemGroup>
     <Content Include="notification-64.ico" />
     <Content Include="README.txt" />
-    <None Include="app.config" />
     <None Include="Resources\aero-glass-close.png" />
+    <None Include="app.config" />
     <None Include="WinForms\LoginHelper.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>LoginHelper.Designer.cs</LastGenOutput>
